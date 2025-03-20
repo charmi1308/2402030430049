@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Classes</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff;
+        }
+        .classes-container {
+            background: #5b1d1d; /* Background color matching the image */
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .btn {
+            background: red;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: darkred;
+        }
+        .classes-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            padding: 20;
+            width: 100;
+            height:100;
+        }
+        .class-item {
+            width: 150;
+            height:150;
+            text-align: center;
+        }
+        .class-item img {
+            width: 50;
+            height: 50;
+            border-radius: 15px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .class-item img:hover {
+            transform: scale(1.1);
+        }
+        .class-item p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="classes-container"> 
+        <div class="header">
+            <h2>OUR CLASSES</h2>
+            <a href="#" class="btn">View All Classes</a>
+        </div>
+        <div class="classes-grid">
+            <div class="class-item">
+                <img src="bodypump1.jpg" alt="BodyPump"> <!-- Placeholder image -->
+                <p>BodyPump</p>
+            </div>
+            <div class="class-item">
+                <img src="yogaflow.jpg" alt="YogaFlow">
+                <p>YogaFlow</p>
+            </div>
+            <div class="class-item">
+                <img src="zumba.jpg" alt="Zumba">
+                <p>Zumba</p>
+            </div>
+            <div class="class-item">
+                <img src="stretch_flex.jpg" alt="Stretch & Flex">
+                <p>Stretch & Flex</p>
+            </div>
+            <div class="class-item">
+                <img src="corepower.jpg" alt="CorePower">
+                <p>CorePower</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

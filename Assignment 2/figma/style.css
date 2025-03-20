@@ -1,0 +1,75 @@
+/* General Page Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a0000; /* Dark background */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Set default font */
+}
+
+/* Card Styling */
+.pricing-card {
+    background-color: #4d0000; /* Dark red background */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px; /* Rounded corners */
+    width: 320px; /* Adjust width as needed */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+/* Package Title */
+.package {
+    font-size: 14px;
+    color: #ffcccb; /* Light red */
+    margin-bottom: 5px;
+}
+
+/* Plan Title */
+.plan-title {
+    font-family: 'Georgia', serif; /* Decorative font */
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+/* Description Heading */
+.description-title {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Description Text */
+.description-text {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+/* Price Styling */
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* Button Styling */
+.choose-plan {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.choose-plan:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Muscles</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        /* Basic styling for layout and typography */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .muscle-container {
+            position: relative;
+            background: url('gym boy.jpg') no-repeat center center/cover; /* Placeholder for background image */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay to enhance readability */
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            padding: 20px;
+        }
+        h2 {
+            color: rgba(252, 9, 9, 0.963);
+            font-size: 30px;
+        }
+        .description {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+        .btn {
+            display: inline-block;
+            background: red;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="muscle-container"> 
+        <div class="overlay"></div> <!-- Dark overlay for better text visibility -->
+        <div class="content">
+            <h2>BUILDING MUSCLES</h2><br>
+            <p>Click to join our building muscle plans</p>
+            <p class="description"><br>
+                Develop strength and define your muscles with tailored programs designed to help you gain lean mass efficiently. Click on the button below and start your journey right now. Don’t miss this chance.
+            </p><br>
+            <a href="#" class="btn">Learn More</a> <!-- Call-to-action button -->
+        </div>
+    </div>
+</body>
+</html>

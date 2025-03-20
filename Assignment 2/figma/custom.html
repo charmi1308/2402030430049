@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Plan</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        /* Container styling */
+        .plan-section {
+            background-color: #600000;
+            color: white;
+            padding: 20px;
+            max-width: 700px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        
+        /* Title and subtitle */
+        .plan-section h2 {
+            margin: 0;
+        }
+        .plan-section span {
+            color: #ff4444;
+            font-weight: bold;
+        }
+        
+        /* Toggle buttons */
+        .toggle-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .toggle-buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .monthly {
+            background-color: #ff4444;
+            color: white;
+        }
+        .annually {
+            background-color: #c4c4c4;
+            color: black;
+        }
+        
+        /* Package heading */
+        .package {
+            font-size: 24px;
+            font-weight: italic;
+            margin: 10px 0;
+        }
+        
+        /* Description */
+        .description {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        
+        /* Price styling */
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        /* Choose Plan button */
+        .choose-btn {
+            display: inline-block;
+            background-color: #ff4444;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="plan-section">
+        <h2>Our <span>Plans</span></h2>
+        <p>Select the plan that suits your fitness goals and let our expert coaches guide you every step of the way.</p>
+        
+        <!-- Toggle between Monthly and Annually -->
+        <div class="toggle-buttons">
+            <button class="monthly">Monthly</button>
+            <button class="annually">Annually</button>
+        </div>
+        
+        <!-- Package name -->
+        <p class="package">Custom Plan</p>
+        
+        <!-- Description -->
+        <p class="description">Experience a fully tailored fitness experience with our custom plan. Work one-on-one with a dedicated trainer to achieve your goals.</p>
+        
+        <!-- Price -->
+        <p class="price">8000/-</p>
+        
+        <!-- Choose Plan Button -->
+        <a href="#" class="choose-btn">Choose This Plan</a>
+    </div>
+</body>
+</html>
